@@ -1,0 +1,16 @@
+DELETE FROM `world`.`command` WHERE  `name`='migration';
+DELETE FROM `world`.`command` WHERE  `name`='diamond';
+DELETE FROM `world`.`command` WHERE  `name`='diamond level';
+DELETE FROM `world`.`command` WHERE  `name`='diamond guild';
+DELETE FROM `world`.`command` WHERE  `name`='diamond guild level';
+DELETE FROM `world`.`command` WHERE  `name`='diamond deserteur';
+DELETE FROM `world`.`command` WHERE  `name`='diamond guild rename';
+UPDATE `world`.`command` SET `help`='Syntax: .spectate player in PvP arena' WHERE  `name`='spectate';
+SELECT `name`, `security`, `help` FROM `world`.`command` WHERE  `name`='spectate';
+UPDATE `world`.`command` SET `help`='Syntax: .spectate player in PvP arena' WHERE  `name`='spectator';
+SELECT `name`, `security`, `help` FROM `world`.`command` WHERE  `name`='spectator';
+UPDATE `world`.`command` SET `help`='Syntax: .spectator leave > Leave arena' WHERE  `name`='spectator leave';
+SELECT `name`, `security`, `help` FROM `world`.`command` WHERE  `name`='spectator leave';
+UPDATE `world`.`command` SET `help`='Syntax: .spectator watch player' WHERE  `name`='spectator watch';
+SELECT `name`, `security`, `help` FROM `world`.`command` WHERE  `name`='spectator watch';
+DELETE FROM `world`.`command` WHERE  `name`='synchronized';

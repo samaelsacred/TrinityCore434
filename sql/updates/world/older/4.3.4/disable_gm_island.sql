@@ -1,0 +1,1 @@
+INSERT INTO `world`.`disables` (`sourceType`, `entry`, `comment`) VALUES ('2', '876', 'GM Island - Area Disabled');
